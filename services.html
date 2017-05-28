@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MusLearn - Sobre nosotros</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	
+	<!-- Controlador para cambiar de estilo -->
+	<script type="text/javascript" src="styleswitcher.js"></script>
+	
+	<!-- Hojas de estilo para el cambio de idioma -->
+	<link rel="stylesheet" type="text/css" href="espanyol.css"
+		  title="espanyol"/>
+	<link rel="alternate stylesheet" type="text/css" href="ingles.css"
+		  title="ingles"/>
+</head>
+<style type="text/css">
+	body,
+	html {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    font-weight: 700;
+	}
+
+	.topnav {
+	    font-size: 14px; 
+	}
+
+	.lead {
+	    font-size: 18px;
+	    font-weight: 400;
+	}
+
+	.intro-header {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	    text-align: center;
+	    color: #f8f8f8;
+	    background: url('https://cdn.shopify.com/s/files/1/1065/3374/files/impactf5-banner4.jpg') no-repeat center center;
+	    background-size: cover;
+	}
+
+	.intro-message {
+	    position: relative;
+	    padding-top: 20%;
+	    padding-bottom: 20%;
+	}
+
+	.intro-message > h1 {
+	    margin: 0;
+	    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	    font-size: 5em;
+	}
+
+	.intro-divider {
+	    width: 400px;
+	    border-top: 1px solid #f8f8f8;
+	    border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+
+	.intro-message > h3 {
+	    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	}
+
+	@media(max-width:767px) {
+	    .intro-message {
+	        padding-bottom: 15%;
+	    }
+
+	    .intro-message > h1 {
+	        font-size: 3em;
+	    }
+
+	    ul.intro-social-buttons > li {
+	        display: block;
+	        margin-bottom: 20px;
+	        padding: 0;
+	    }
+
+	    ul.intro-social-buttons > li:last-child {
+	        margin-bottom: 0;
+	    }
+
+	    .intro-divider {
+	        width: 100%;
+	    }
+	}
+
+	.network-name {
+	    text-transform: uppercase;
+	    font-size: 14px;
+	    font-weight: 400;
+	    letter-spacing: 2px;
+	}
+
+	.content-section-a {
+	    padding: 50px 0;
+	    background-color: #f8f8f8;
+	}
+
+	.content-section-b {
+	    padding: 50px 0;
+	    border-top: 1px solid #e7e7e7;
+	    border-bottom: 1px solid #e7e7e7;
+	}
+
+	.section-heading {
+	    margin-bottom: 30px;
+	}
+
+	.section-heading-spacer {
+	    float: left;
+	    width: 200px;
+	    border-top: 3px solid #e7e7e7;
+	}
+
+	.banner {
+	    padding: 100px 0;
+	    color: #f8f8f8;
+	    background: url('img/banner.png') no-repeat center center;
+	    background-size: cover;
+	}
+
+	.banner h2 {
+	    margin: 0;
+	    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	    font-size: 3em;
+	}
+
+	.banner ul {
+	    margin-bottom: 0;
+	}
+
+	.banner-social-buttons {
+	    float: right;
+	    margin-top: 0;
+	}
+
+	@media(max-width:1199px) {
+	    ul.banner-social-buttons {
+	        float: left;
+	        margin-top: 15px;
+	    }
+	}
+
+	@media(max-width:767px) {
+	    .banner h2 {
+	        margin: 0;
+	        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	        font-size: 3em;
+	    }
+
+	    ul.banner-social-buttons > li {
+	        display: block;
+	        margin-bottom: 20px;
+	        padding: 0;
+	    }
+
+	    ul.banner-social-buttons > li:last-child {
+	        margin-bottom: 0;
+	    }
+	}
+
+	footer {
+	    padding: 50px 0;
+	    background-color: #f8f8f8;
+	}
+
+	p.copyright {
+	    margin: 15px 0 0;
+	}
+</style>
+<body>
+ <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Activa</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.php">MusLearn</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                     <li>
+                        <a  href="about.html"><p class="espanyol">Sobre nosotros</p><p class="ingles">About us</p></a>
+                    </li>
+                    <li>
+                        <a href="#"><p class="espanyol">¿Qué es?</p><p class="ingles">About MusLearn</p></a>
+                    </li>
+                    <li>
+                        <a data-toggle="modal" href="#loginModal"><p class="espanyol">Accede</p><p class="ingles">Log in/Register</p></a>
+                    </li>
+					<li>
+						<a href="#" onclick="setActiveStyleSheet('espanyol');
+						   return false;"><img src="img/es.png" width="25" height="25"></a>
+					</li>
+					<li>
+						<a href="#" onclick="setActiveStyleSheet('ingles');
+						   return false;"><img src="img/en.png" width="25" height="25"></a>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+   	<!-- LOGIN MODAL -->
+	  <div class="modal fade" id="loginModal" role="dialog">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h3 class="espanyol"> Inicio de sesión </h3>
+			  <h3 class="ingles"> Log in </h3>
+	        </div>
+	        <div class="modal-body">
+	           <form class="form-signin" method="POST" action="source/login.php">
+	            <div class="form-group">
+	              <label for="usrname"><p class="espanyol"><span class="glyphicon glyphicon-user"></span> Usuario</p>
+				  <p class="ingles"><span class="glyphicon glyphicon-user"></span> User</p></label>
+	              <input type="text" name="inputLogin" class="form-control espanyol" id="usrname" placeholder="Introduce tu usuario">
+				  <input type="text" name="inputLogin" class="form-control ingles" id="usrname" placeholder="Enter your username">
+	            </div>
+	            <div class="form-group">
+	              <label for="psw"><p class="espanyol"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</p>
+				  <p class="ingles"><span class="glyphicon glyphicon-eye-open"></span> Password</p></label>
+	              <input type="text" name="inputLoginPassword" class="form-control espanyol" id="psw" placeholder="Introduce tu contraseña">
+				  <input type="text" name="inputLoginPassword" class="form-control ingles" id="psw" placeholder="Enter your password">
+	            </div>
+	            <button type="submit" class="btn btn-default btn-success btn-block espanyol"><span class="glyphicon glyphicon-off"></span> Acceder</button>
+				<button type="submit" class="btn btn-default btn-success btn-block ingles"><span class="glyphicon glyphicon-off"></span> Login</button>
+	          </form>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="submit" class="btn btn-default btn-default pull-left espanyol" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cerrar</button>
+			  <button type="submit" class="btn btn-default btn-default pull-left ingles" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+	          <p class="espanyol">¿No estas registrado? <a data-toggle="modal" href="#registerModal">Registrate</a></p>
+			  <p class="ingles">Not registered yet? <a data-toggle="modal" href="#registerModal">Create account</a></p>
+	        </div>
+	      </div>
+	    </div>
+	  </div> 
+<!-- ./login modal -->
+
+<!-- register modal -->
+	  <div class="modal fade" id="registerModal" role="dialog">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h3 class="espanyol"> Registro </h3>
+			  <h3 class="ingles"> Register form </h3>
+	        </div>
+	        <div class="modal-body">
+	           <form class="form-signin" method="POST" action="source/registro.php">
+	            <div class="form-group">
+	              <label for="usrname"><p class="espanyol"><span class="glyphicon glyphicon-user"></span> Usuario</p>
+				  <p class="ingles"><span class="glyphicon glyphicon-user"></span> User</p></label>
+	              <input type="text" name="usr" class="form-control espanyol" id="usrname" placeholder="Introduce tu usuario">
+				  <input type="text" name="usr" class="form-control ingles" id="usrname" placeholder="Enter your username">
+	            </div>
+	            <div class="form-group">
+	              <label for="psw"><p class="espanyol"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</p>
+				  <p class="ingles"><span class="glyphicon glyphicon-eye-open"></span> Password</p></label>
+	              <input type="text" name="pwd1" class="form-control espanyol" id="psw" placeholder="Introduce tu contraseña">
+				  <input type="text" name="pwd1" class="form-control ingles" id="psw" placeholder="Enter your password">
+	            </div>
+				<div class="form-group">
+	              <label for="psw"><p class="espanyol"><span class="glyphicon glyphicon-eye-open"></span> Repite tu Contraseña</p>
+				  <p class="ingles"><span class="glyphicon glyphicon-eye-open"></span> Confirm Password</p></label>
+	              <input type="text" name="pwd2" class="form-control espanyol" id="psw" placeholder="Confirma tu contraseña">
+				  <input type="text" name="pwd2" class="form-control ingles" id="psw" placeholder="Re-type your password">
+	            </div>
+	            <button type="submit" class="btn btn-default btn-success btn-block espanyol"><span class="glyphicon glyphicon-off"></span> Registrate</button>
+				<button type="submit" class="btn btn-default btn-success btn-block ingles"><span class="glyphicon glyphicon-off"></span> Create Account</button>
+	          </form>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="submit" class="btn btn-default btn-default pull-left espanyol" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cerrar</button>
+			  <button type="submit" class="btn btn-default btn-default pull-left ingles" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div> 
+<!-- ./register modal -->
+
+
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading espanyol">Muslearn: La aplicación que estabas buscando</h2>
+					<h2 class="section-heading ingles">Muslearn: The application you've always wanted</h2>
+					<p class="lead espanyol">¿Alguna vez has querido aprenderte alguna canción pero no encontrabas la letra?<br>¿No entiendes
+					lo que está cantando tu artista favorito?<br>¡Tenemos la solución para que sólo te preocupes en dormir como un angelito!<br>
+					<br> Muslearn es una aplicación social que te facilita buscar la letra de tus canciones favoritas mediante una sencilla interfaz
+					pensada para la comodidad del usuario.</p>
+					<p class="lead ingles">Have you ever wanted to learn a song but you couldn't find the lyrics?<br>Ever felt like you didn't 
+					understand what your favorite artist is singing?<br>Rest easy, we've got your back!<br>
+					<br>MusLearn is a social app that will provide you, with a simple interface, the possibility
+					to look up for the lyrics of your favorite songs without inconveniences.</p>
+					
+               
+            </div>
+
+			<div style="padding-top:100px" class="col-lg-5 col-lg-offset-2 col-sm-6 pull-right">
+					<img class="img-responsive" src="img/je.png" alt="" style="border-radius:5px">
+                </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+		    <div class="content-section-b">
+			
+           <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6 col-md-offset-4">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading espanyol">Principales Características</h2>
+					<h2 class="section-heading ingles">Main Features</h2>
+					<ul>
+					<li><p class="espanyol">Introduciendo la url de un vídeo musical de Youtube, mostrará la letra de la canción que esté sonando.</p>
+					<p class="ingles">Entering the url of a music video from Youtube, will show the lyricis of the song playing.</p></li>
+					<li>
+					<p class="espanyol">¿No encuentra la letra? No te preocupes, contribuye a la aplicación y añádela tú mismo.					
+					<i style="font-size: 75%">We're the wooorld</i></p>
+					<p class="ingles">Failed finding them? No problemo, contribute to the team and add it yourself!
+					<i style="font-size: 75%">We're the wooorld</i></li>
+					<li>
+					<p class="espanyol">Los usuarios que más aporten serán mostrados por un Ranking en la aplicación. A todos nos gustan los números grandes, ¿verdad?</p>
+					<p class="ingles">The most altruistic users will be shown in a Ranking inside the application. Show off those big numbers, baby!</li>
+					<li>
+					<p class="espanyol">Revisa tu perfil para ver tus últimas búsquedas.</p>
+					<p class="ingles">Checkout your profile for your latest music searches.</li>
+					<li>
+					<p class="espanyol">Interfaz cómoda y sencilla que te permite centrarte en la música únicamente.</p>
+					<p class="ingles">Simple and clean interface that allows you to focus on the actual music.</li>
+					</ul>
+            </div>
+
+        </div>
+        <!-- /.container -->
+		 <div class="content-section-a">
+		 
+			<div class="container text-center">    
+			<h3 class="espanyol">Imágenes</h3>
+			<h3 class="ingles">Screenshots</h3><br>
+			  <div class="row">
+				<div class="col-sm-4">
+				  <img src="img/inicial.png" class="img-responsive" style="width:100%" alt="Imagen">
+				  <p class="espanyol">Pantalla principal</p>
+				  <p class="ingles">Main screen</p>
+				</div>
+				<div class="col-sm-4"> 
+				  <img src="img/main.png" class="img-responsive" style="width:100%" alt="Imagen">
+				  <p class="espanyol">Pantalla del vídeo y letra</p>
+				  <p class="ingles">Lyrics and video screen</p>    
+				</div>
+				<div class="col-sm-4">
+				   <img src="img/anyadir.png" class="img-responsive" style="width:100%" alt="Imagen">
+				   <p class="espanyol">Ventana para añadir letra</p>
+				  <p class="ingles">Frame to add lyrics</p>
+				  </div>
+				</div>
+			  </div>
+			</div><br>
+		</div>
+
+   <<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index.html"><p class="espanyol">Inicio</p><p class="ingles">Home</p></a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="about.html"><p class="espanyol">Sobre nosotros</p><p class="ingles">About us</p></a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+							<a href="#"><p class="espanyol">¿Qué es?</p><p class="ingles">About MusLearn</p></a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a data-toggle="modal" href="#loginModal"><p class="espanyol">Accede</p><p class="ingles">Log in/Register</p></a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small espanyol">Copyright &copy; MusLearn 2017. Todos los derechos reservados</p>
+					<p class="copyright text-muted small ingles">Copyright &copy; MusLearn 2017. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
